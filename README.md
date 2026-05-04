@@ -4,9 +4,9 @@
 
 **B.Tech in Mathematics and Computing | Indian Institute of Science (IISc), Bangalore**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/vaibhav-mahore)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vaibhav-mahore/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/vaibhav3000)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/NINJA3000)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/u/NINJA3000)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:mvaibhav@iisc.ac.in)
 
 </div>
@@ -15,9 +15,9 @@
 
 ## About
 
-I am an undergraduate student in Mathematics and Computing at the **Indian Institute of Science (IISc), Bangalore** - one of India's premier research institutions. My work sits at the intersection of machine learning, computational biology, and scalable systems, with a focus on building models that are both theoretically grounded and production-ready.
+Undergraduate researcher in Mathematics and Computing at **IISc Bangalore**, working at the intersection of machine learning, sequence modeling, and computational biology. Focused on building systems that are theoretically rigorous and production-deployable.
 
-I am currently exploring opportunities in **ML research internships**, **applied AI roles**, and **collaborations with research groups** working on sequence modeling, generative AI, and large-scale data systems.
+Open to **ML research internships**, **applied AI roles**, and **research collaborations** in sequence modeling, generative AI, and scalable ML systems.
 
 ---
 
@@ -26,51 +26,42 @@ I am currently exploring opportunities in **ML research internships**, **applied
 - State Space Models and long-range sequence modeling (Mamba, S4, Transformers)
 - Generative AI and large language model architectures
 - Computational biology and single-cell transcriptomics
-- Scalable machine learning and MLOps infrastructure
 - Probabilistic modeling, topic modeling, and latent space representations
+- MLOps and scalable ML infrastructure
 
 ---
 
 ## Featured Projects
 
-### Scalable Sequence Modeling with State Space Models
-`Jan 2025 - Apr 2025`
+**[Scalable Sequence Modeling with State Space Models](https://github.com/vaibhav3000/projects/tree/main/SSM)** `Jan 2025 - Apr 2025`
 
-Benchmarked Mamba and S4 against Transformer baselines on long-sequence tasks, with a focus on memory efficiency and linear-time complexity scaling.
+Benchmarked Mamba and S4 against Transformer baselines on long-sequence tasks, analyzing memory efficiency and linear-time complexity scaling.
 
-- Achieved **0.96 AUC** on IMDb sentiment analysis with Mamba, outperforming the S4 baseline (0.94)
+- Achieved **0.96 AUC** on IMDb sentiment analysis with Mamba, outperforming S4 baseline (0.94)
 - Reduced training time by **50%** relative to comparable Transformer architectures
-- Conducted systematic analysis of throughput, memory footprint, and convergence behavior across sequence lengths
 
-[![Repo](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/vaibhav3000)
 `Python` `PyTorch` `NumPy` `Hugging Face` `Scikit-learn`
 
 ---
 
-### Early Cell Fate Prediction via Topic Modeling on scRNA-seq
-`Jan 2026 - Apr 2026`
+**[Early Cell Fate Prediction via Topic Modeling on scRNA-seq](https://github.com/vaibhav3000/cell-fate-prediction)** `Jan 2026 - Apr 2026`
 
-Designed a computational pipeline combining Poisson NMF and LDA-based topic modeling with supervised classification to predict cell fate from single-cell RNA sequencing data.
+Built a Poisson NMF and LDA pipeline on 11,000+ single cells across 7 timepoints, with a supervised classification layer for fate prediction.
 
-- Processed a dataset of **11,000+ cells across 7 developmental timepoints**
-- Trained a Random Forest classifier achieving **AUROC = 0.979** at Day 1
-- Enabled cell fate prediction **6 days before** conventional marker-based methods, revealing continuous latent-space commitment trajectories
+- Random Forest classifier achieving **AUROC = 0.979** at Day 1
+- Predicted cell fate **6 days before** conventional marker-based methods
 
-[![Repo](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/vaibhav3000)
-`Python` `R` `fastTopics` `Scikit-learn` `Pandas` `Bioinformatics`
+`Python` `R` `fastTopics` `Scikit-learn` `Pandas`
 
 ---
 
-### Advanced House Price Prediction System
-`Aug 2025 - Nov 2025`
+**[Advanced House Price Prediction System](https://github.com/vaibhav3000/house-price-prediction)** `Aug 2025 - Nov 2025`
 
-Built a production-grade regression pipeline with advanced feature engineering and a full MLOps deployment stack.
+Production-grade regression pipeline with Optuna-tuned LightGBM and a full MLOps deployment stack.
 
-- LightGBM model tuned via **Optuna** achieving **RMSLE of 0.126**
-- Applied **SHAP analysis** to interpret non-linear feature interactions and guide engineering decisions
-- Architected end-to-end deployment: **Docker** containerization, **MLflow** experiment tracking, **Flask** REST API, and **Streamlit** frontend
+- **RMSLE of 0.126** with SHAP-guided feature engineering
+- End-to-end deployment via Docker, MLflow, Flask API, and Streamlit frontend
 
-[![Repo](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/vaibhav3000)
 `Python` `LightGBM` `XGBoost` `CatBoost` `Docker` `MLflow` `Flask` `Streamlit`
 
 ---
@@ -84,13 +75,13 @@ Built a production-grade regression pipeline with advanced feature engineering a
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
 
-**ML / DL Frameworks**
+**ML / DL**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-189FAD?style=flat-square&logo=xgboost&logoColor=white)
-![LightGBM](https://img.shields.io/badge/LightGBM-02569B?style=flat-square&logo=lightgbm&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-189FAD?style=flat-square&logoColor=white)
+![LightGBM](https://img.shields.io/badge/LightGBM-02569B?style=flat-square&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 
 **MLOps and Infrastructure**
@@ -101,40 +92,18 @@ Built a production-grade regression pipeline with advanced feature engineering a
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-**Data and Scientific Computing**
-
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-
----
-
-## Experience
-
-**Open Day Volunteer** | Dept. of Computer Science and Automation (CSA), IISc | 2024, 2025
-
-Co-managed the "Puzzle Corner" exhibit across two consecutive Open Days, presenting computational concepts and logic problems to an audience of over **30,000 visitors**. Translated complex algorithmic ideas into accessible formats for a general audience.
-
----
-
-**Event Coordinator** | Rhapsody Fest, IISc | 2023 - 2026
-
-Organized three consecutive inter-college gaming tournaments with over **200 registered teams** per edition. Administered a Discord community of **500+ members**, overseeing registration logistics, real-time technical support, and community communication at scale.
-
 ---
 
 ## Certifications
 
-[![Oracle GenAI](https://img.shields.io/badge/Oracle_Certified-Generative_AI_Professional-F80000?style=flat-square&logo=oracle&logoColor=white)](https://catalog-education.oracle.com)
-[![Oracle DS](https://img.shields.io/badge/Oracle_Certified-Data_Science_Professional-F80000?style=flat-square&logo=oracle&logoColor=white)](https://catalog-education.oracle.com)
-
-Both credentials obtained: **August 2025**
+[![Oracle GenAI](https://img.shields.io/badge/Oracle_Certified-Generative_AI_Professional-F80000?style=flat-square&logo=oracle&logoColor=white)](https://catalog-education.oracle.com/ords/certview/sharebadge?id=C8C59C8EE1F738F93AE1E79B0F626F32159AB49DFD29856207D8FD1DC48277DA)
+[![Oracle DS](https://img.shields.io/badge/Oracle_Certified-Data_Science_Professional-F80000?style=flat-square&logo=oracle&logoColor=white)](https://catalog-education.oracle.com/ords/certview/sharebadge?id=E89DD81DBC3358706048B3C0BE990728217104E5BF4E7543F6D15C4D60EFF669)
 
 ---
 
 ## Achievements
 
-- **All India Rank 2412** in JEE Advanced 2023, placing in the top **1.34%** of over 180,000 candidates nationwide
-- 
+- **All India Rank 2412** in JEE Advanced 2023, top 1.34% of 180,000+ candidates
 
 ---
 
@@ -154,14 +123,9 @@ Both credentials obtained: **August 2025**
 
 ## Contact
 
-I am actively looking for research internship opportunities in ML, applied AI, and computational biology. If you are a professor, researcher, or startup founder working on problems in these areas, feel free to reach out.
-
-| Channel | Link |
-|---|---|
-| Academic Email | [mvaibhav@iisc.ac.in](mailto:mvaibhav@iisc.ac.in) |
-| LinkedIn | [linkedin.com/in/vaibhav-mahore](https://linkedin.com/in/vaibhav-mahore) |
-| GitHub | [github.com/vaibhav3000](https://github.com/vaibhav3000) |
-| Phone | +91-9284782375 |
+[![Email](https://img.shields.io/badge/mvaibhav@iisc.ac.in-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:mvaibhav@iisc.ac.in)
+[![LinkedIn](https://img.shields.io/badge/vaibhav--mahore-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vaibhav-mahore/)
+[![GitHub](https://img.shields.io/badge/vaibhav3000-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/vaibhav3000)
 
 ---
 
