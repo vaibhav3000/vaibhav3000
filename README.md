@@ -15,7 +15,7 @@
 
 ## About
 
-I am an undergraduate student in Mathematics and Computing at the **Indian Institute of Science (IISc), Bangalore** — one of India's premier research institutions. My work sits at the intersection of machine learning, computational biology, and scalable systems, with a focus on building models that are both theoretically grounded and production-ready.
+I am an undergraduate student in Mathematics and Computing at the **Indian Institute of Science (IISc), Bangalore** - one of India's premier research institutions. My work sits at the intersection of machine learning, computational biology, and scalable systems, with a focus on building models that are both theoretically grounded and production-ready.
 
 I am currently exploring opportunities in **ML research internships**, **applied AI roles**, and **collaborations with research groups** working on sequence modeling, generative AI, and large-scale data systems.
 
@@ -134,7 +134,7 @@ Both credentials obtained: **August 2025**
 ## Achievements
 
 - **All India Rank 2412** in JEE Advanced 2023, placing in the top **1.34%** of over 180,000 candidates nationwide
-- Admitted to the **B.Tech program at IISc Bangalore**, one of the most selective undergraduate engineering programs in India
+- 
 
 ---
 
