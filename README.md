@@ -101,12 +101,6 @@ Production-grade regression pipeline with Optuna-tuned LightGBM and a full MLOps
 
 ---
 
-## Achievements
-
-- **All India Rank 2412** in JEE Advanced 2023, top 1.34% of 180,000+ candidates
-
----
-
 ## GitHub Stats
 
 <div align="center">
