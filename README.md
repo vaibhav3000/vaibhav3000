@@ -17,7 +17,7 @@
 
 Final-year undergraduate in Mathematics and Computing at **IISc Bangalore**, building production-grade ML systems at the intersection of deep learning, data engineering, and scalable infrastructure. I focus on shipping models that are mathematically sound and deployment-ready.
 
-Open to **SDE / ML Engineer roles**, **data science internships**, and **applied AI positions** in generative AI, NLP, and MLOps.
+Open to **AI/ML Engineer roles**, **data science internships**, and **applied AI positions** in generative AI, NLP, and MLOps.
 
 ---
 
