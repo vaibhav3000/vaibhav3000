@@ -10,15 +10,9 @@ I build and verify AI systems end to end: efficient sequence architectures imple
 
 ---
 
-## Portfolio at a glance
-
-![Portfolio architecture: deep models, to AI evaluation, to verified AI agents](portfolio_overview.png)
+## Featured Projects
 
 Each project is self-contained: committed benchmark results, tests, reproducible scripts, and honest limitations sections.
-
----
-
-## Featured Projects
 
 ### [Efficient Sequence Modeling: From S4 to Mamba-3](https://github.com/vaibhav3000/s4-to-mamba)
 
