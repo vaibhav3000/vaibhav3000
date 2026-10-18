@@ -4,7 +4,7 @@
 
 **B.Tech Mathematics and Computing @ IISc Bangalore**
 
-*AI/ML Engineer | Applied AI | AI Systems*
+*AI/ML Engineer | Applied AI | AI Systems | Automation Engineer*
 
 <br>
 
