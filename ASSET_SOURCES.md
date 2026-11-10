@@ -15,12 +15,20 @@ Record of every externally sourced visual used in this profile README.
   section (moved down from the top so the first screen shows work and links),
   decorative with descriptive alt text.
 
-## 2. Removed: Super Saiyan-style power-up meme
+## 2. Super Saiyan-style power-up meme ("Beyond the code", below the Gojo GIF)
 
-- Previously hotlinked from
-  `https://raw.githubusercontent.com/Xx-Ashutosh-xX/Xx-Ashutosh-xX/master/assets/1936.gif`
-  (4.90 MB). Removed in November 2026: it slowed the profile page and its
-  source repository grants no redistribution rights.
+- **File referenced:** Super Saiyan-style power-up meme (football coach with a
+  Goku-style yellow aura, World Cup broadcast edit; widely known as the
+  "Super Saiyan Miguel Herrera" meme)
+- **Asset:** `https://raw.githubusercontent.com/Xx-Ashutosh-xX/Xx-Ashutosh-xX/master/assets/1936.gif`
+- **Source page:** https://github.com/Xx-Ashutosh-xX/Xx-Ashutosh-xX (assets/1936.gif, 4.90 MB, 500x282, 143 frames)
+- **Origin:** edited broadcast footage; Dragon Ball aura artwork overlay
+  (Toei Animation / Shueisha IP); original editor unknown. The source
+  repository carries no license file.
+- **Usage decision:** Hotlink (reference rather than redistribute, since the
+  source repo grants no redistribution rights). Width ~360px, directly below
+  the Gojo GIF, decorative with descriptive alt text. If the source repo ever
+  disappears, the image will break and can be removed or replaced.
 
 ## 3. Icons and badges
 
