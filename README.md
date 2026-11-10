@@ -120,6 +120,8 @@ Wrote reasoning traces and tool-use data for LLM post-training (Alignerr), and b
 
 <img src="https://media.giphy.com/media/iNPNqI81MvDQ4D4n6D/giphy.gif" width="360" alt="Gojo Satoru lifting his blindfold, dark cinematic scene from Jujutsu Kaisen">
 
+<img src="https://raw.githubusercontent.com/Xx-Ashutosh-xX/Xx-Ashutosh-xX/master/assets/1936.gif" width="360" alt="Super Saiyan aura meme: football coach powering up with Goku-style energy">
+
 *"...throughout heaven and earth, I alone verify the output."*
 
 </div>
