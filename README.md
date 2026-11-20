@@ -49,7 +49,7 @@ Trace-based evaluation for LLM and RAG systems: run a system once, store validat
 
 `agents` `tool calling` `sandboxing` · Python, pytest, Gemini API
 
-A coding agent where the LLM only proposes tool calls, natively or over MCP. A deterministic state machine (plan → act → observe → verify) validates every call against a schema, path-jails it to the workspace and applies AUTO/ASK/DENY permissions. A task is done only when the tests pass, and the runtime itself has 378 tests.
+A coding agent where the LLM only proposes tool calls, natively or over MCP. A deterministic state machine (plan → act → observe → verify) validates every call, gates it with AUTO/ASK/DENY permissions and jails every path argument to the workspace. A task is accepted only when a re-run of the restored, protected tests exits 0, and the runtime itself has 378 tests.
 
 > **12/12** multi-file bug-fix, test-writing and refactoring tasks pass in scripted mode under both sandboxes with **0** failed tool calls. A 49-attack adversarial suite (path escapes, command injection, malformed calls and more) ends with **0** breaches in the Docker sandbox and 1 documented residual.
 
