@@ -39,7 +39,7 @@ LLM evaluation that fails the build on a regression, and agents that finish only
 
 `LLM evaluation` `RAG` `CI quality gate` · Python, pytest, GitHub Actions, Gemini API
 
-Trace-based evaluation for LLM and RAG systems: run a system once, store validated traces, then score them, compare versions and attribute every regression to the cases that caused it. The `aire-gate` CLI turns a comparison into a CI check, and the engine is covered by 340 tests.
+Trace-based evaluation for LLM and RAG systems: run a system once, store validated traces, then score them, compare versions and attribute every regression to the cases that caused it. The `aire-gate` CLI turns a comparison into a CI check, and the engine is covered by 361 tests.
 
 > The repo's own CI plants a "fluent but uncited" version and the gate blocks it on every push: groundedness **1.0 → 0.0** and ungrounded failures **+109** on a 150-case suite, even though Recall@3 rose 0.72 → 0.86. Against a rate-limited test server, the async runner gets **5.4x** the sequential throughput with **0** failed cases.
 
@@ -49,7 +49,7 @@ Trace-based evaluation for LLM and RAG systems: run a system once, store validat
 
 `agents` `tool calling` `sandboxing` · Python, pytest, Gemini API
 
-A coding agent where the LLM only proposes tool calls, natively or over MCP. A deterministic state machine (plan → act → observe → verify) validates every call against a schema, path-jails it to the workspace and applies AUTO/ASK/DENY permissions. A task is done only when the tests pass, and the runtime itself has 374 tests.
+A coding agent where the LLM only proposes tool calls, natively or over MCP. A deterministic state machine (plan → act → observe → verify) validates every call against a schema, path-jails it to the workspace and applies AUTO/ASK/DENY permissions. A task is done only when the tests pass, and the runtime itself has 378 tests.
 
 > **12/12** multi-file bug-fix, test-writing and refactoring tasks pass in scripted mode under both sandboxes with **0** failed tool calls. A 49-attack adversarial suite (path escapes, command injection, malformed calls and more) ends with **0** breaches in the Docker sandbox and 1 documented residual.
 
@@ -59,7 +59,7 @@ A coding agent where the LLM only proposes tool calls, natively or over MCP. A d
 
 `deep learning` `state space models` `GPU benchmarking` · PyTorch
 
-Minimal S4D, Mamba, Mamba-2 (chunked SSD) and Mamba-3 in pure PyTorch, verified against float64 references and gradcheck (583 tests), with decoding benchmarks from 1K to 32K tokens on a 6 GB laptop GPU.
+Minimal S4D, Mamba, Mamba-2 (chunked SSD) and Mamba-3 in pure PyTorch, verified against float64 references and gradcheck (585 tests), with decoding benchmarks from 1K to 32K tokens on a 6 GB laptop GPU.
 
 > Parity over 5 seeds at about 100K parameters each: Mamba-3 reaches **89%** and **99%** on 2 of 5 seeds, while every rotation-free model, including Mamba-3 with its rotation removed, stays near chance (means ≤57.3%). At 32K tokens the SSMs decode with a **0.14 to 0.39 MiB** state against a **128 MiB** fp32 KV cache.
 
