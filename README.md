@@ -39,7 +39,7 @@ LLM evaluation that fails the build on a regression, and agents that finish only
 
 `LLM evaluation` `RAG` `CI quality gate` · Python, pytest, GitHub Actions, Gemini API
 
-Trace-based evaluation for LLM and RAG systems: run a system once, store validated traces, then score them, compare versions and attribute every regression to the cases that caused it. The `aire-gate` CLI turns a comparison into a CI check, and the engine is covered by 361 tests.
+Trace-based evaluation for LLM and RAG systems: run a system once, store validated traces, then score them, compare versions and attribute every regression to the cases that caused it. The `aire-gate` CLI turns a comparison into a CI check, and the engine is covered by 377 tests.
 
 > The repo's own CI plants a "fluent but uncited" version and the gate blocks it on every push: groundedness **1.0 → 0.0** and ungrounded failures **+109** on a 150-case suite, even though Recall@3 rose 0.72 → 0.86. Against a rate-limited test server, the async runner gets **5.4x** the sequential throughput with **0** failed cases.
 
