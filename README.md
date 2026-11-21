@@ -39,7 +39,7 @@ LLM evaluation that fails the build on a regression, and agents that finish only
 
 `LLM evaluation` `RAG` `CI quality gate` · Python, pytest, GitHub Actions, Gemini API
 
-Trace-based evaluation for LLM and RAG systems: run a system once, store validated traces, then score them, compare versions and attribute every regression to the cases that caused it. The `aire-gate` CLI turns a comparison into a CI check, and the engine is covered by 377 tests.
+Trace-based evaluation for LLM and RAG systems: run a system once, store validated traces, then score them, compare versions and attribute every regression to the cases that caused it. The `aire-gate` CLI turns a comparison into a CI check, and the engine is covered by 381 tests.
 
 > The repo's own CI plants a "fluent but uncited" version and the gate blocks it on every push: groundedness **1.0 → 0.0** and ungrounded failures **+109** on a 150-case suite, even though Recall@3 rose 0.72 → 0.86. Against a rate-limited test server, the async runner gets **5.4x** the sequential throughput with **0** failed cases.
 
@@ -49,7 +49,7 @@ Trace-based evaluation for LLM and RAG systems: run a system once, store validat
 
 `agents` `tool calling` `sandboxing` · Python, pytest, Gemini API
 
-A coding agent where the LLM only proposes tool calls, natively or over MCP. A deterministic state machine (plan → act → observe → verify) validates every call, gates it with AUTO/ASK/DENY permissions and jails every path argument to the workspace. A task is accepted only when a re-run of the restored, protected tests exits 0, and the runtime itself has 378 tests.
+A coding agent where the LLM only proposes tool calls, natively or over MCP. A deterministic state machine (plan → act → observe → verify) validates every call, gates it with AUTO/ASK/DENY permissions and jails every path argument to the workspace. A task is accepted only when a re-run of the restored, protected tests exits 0, and the runtime itself has 380 tests.
 
 > **12/12** multi-file bug-fix, test-writing and refactoring tasks pass in scripted mode under both sandboxes with **0** failed tool calls. A 49-attack adversarial suite (path escapes, command injection, malformed calls and more) ends with **0** breaches in the Docker sandbox and 1 documented residual.
 
